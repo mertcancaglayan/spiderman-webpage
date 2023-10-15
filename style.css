@@ -1,0 +1,215 @@
+body {
+    background-color: #210002;
+    background-image: url("spider.png");
+    height: 2000px;
+}
+
+
+
+/* navbar style */
+.custom-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #ffaf00;
+}
+
+.custom-nav .brand {
+    margin-left: 15px;
+    font-family: fantasy;
+}
+
+.custom-nav .items {
+    margin-right: 15px;
+    display: flex;
+}
+
+.custom-nav a {
+    color: #ffaf00;
+    text-decoration: none;
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#brand-item {
+    padding: 10px;
+    float: left;
+}
+
+.custom-nav a:hover {
+    background-color: #7e0030;
+}
+
+.custom-nav a:focus {
+    background-color: #ff6d3f;
+}
+
+.custom-nav a.item { 
+    float: right;
+}
+
+/*  main stlye */
+#maincontainer {
+    color: #ffaf00;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#maincontainer .banner {
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.banner  {
+    background: url(banner_transparent_left.png) no-repeat left top / contain, url(banner_transparent_right.png) no-repeat right top / contain;
+    background-color: #ffaf00;
+    color: #210002;
+    display: inline-block;
+    padding: 0.5em 1.1em;
+    outline: 1px solid #210002;
+    transition: background-color 0.15s;
+}
+
+.banner:hover {
+    background-color: aliceblue;
+}
+
+#maincontainer a {
+    color: black;
+    text-transform: inherit;
+    text-align: center;
+    text-decoration: none;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.description .text {
+    margin-top: 30px;
+    text-align: left;
+    display: block;
+}
+
+.description .text p {
+    margin-bottom: 1.6em;
+    text-transform: none;
+}
+
+
+#maincontainer .banner2 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.banner2  {
+    background: url(banner_transparent_left.png) no-repeat left top / contain, url(banner_transparent_right.png) no-repeat right top / contain;
+    color: #210002;
+    background-color: #973700;
+    display: inline-block;
+    padding: 0.5em 1.1em;
+    outline: 1px solid #210002;
+    transition: background-color 0.15s;
+}
+
+.banner2:hover {
+    background-color: #ffaf00;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery img:hover {
+    filter: brightness(110%);
+    transition: 0.2s ease-in-out;
+}
+
+.quote-lg {
+    margin-top: 30px;
+    line-height: 1.35em;
+    letter-spacing: 1px;
+    padding: 0;
+    border: 0;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.quote-sm {
+    font-weight: 700;
+    color: #973700; 
+    letter-spacing: 4px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.japanese-text {
+    color: #ffaf00;
+    letter-spacing: 4px;
+    font-size: 2em;
+}
+
+.japanese-text:hover {
+    color: #cccbc7;
+}
+
+.copyright {
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #973700;
+}
+
+.spiderHead  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spiderHead img {
+    width: 100%;
+
+}
+
+
+
+
